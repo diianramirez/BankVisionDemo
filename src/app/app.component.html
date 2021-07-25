@@ -1,0 +1,10 @@
+<div class="header">
+  <h1>BankVision</h1>
+  <p>User consulting module</p>
+</div>
+<div class ="container">
+  <button (click)= "ViewAll()" class ="btn btn-info" style="margin-left: 30px;" > View All Users</button>  
+  <button (click)="CreateUser()" class ="btn btn-info" style="margin-left: 30px;" > Create New</button>  
+  <button (click)="Help()" class ="btn btn-info" style="margin-left: 30px;" > Help</button>
+</div>
+<router-outlet></router-outlet>
